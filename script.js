@@ -154,9 +154,8 @@ document.addEventListener("DOMContentLoaded", () => {
   async function runBootSequence() {
     if (!bootTextElement) return; // Seguridad por si no existe
 
-    // 1. Carga Linux
-    for (const line of bootLines) {
-      await sleep(Math.random() * 40 + 5);
+      for (const line of bootLines) {
+      await sleep(Math.random() * 100 + 5);
       const p = document.createElement('div');
       p.innerHTML = line
         .replace(/\[\s*OK\s*\]/g, '<span class="log-ok">[  OK  ]</span>')
@@ -188,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
           h1.classList.remove('typing-cursor');
         }
 
-        await sleep(300);
+        await sleep(1500);
 
         const p2 = document.getElementById('linea2');
         if (p2) {
