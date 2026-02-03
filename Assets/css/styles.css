@@ -934,9 +934,12 @@ p {
     display: flex;
   }
 
-  .tech-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  .tech-grid {    
+    grid-template-columns: repeat(3, 1fr) !important;    
+    justify-content: center !important;    
+    justify-items: center !important;
+    gap: 1rem !important;
+    margin-bottom: 2rem;
   }
 
   .skill-row {
