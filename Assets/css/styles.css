@@ -392,6 +392,10 @@ p {
   padding: 1.5rem;
   transition: transform 0.2s;
   margin-bottom: 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: var(--term-green);
+  height: 100%;
 }
 
 .card:hover {
@@ -401,6 +405,23 @@ p {
   color: black;
   background-color: var(--term-green);
   box-shadow: 0 0 15px var(--term-green);
+}
+
+.card h3, 
+.card p {
+  transition: color 0.2s;
+}
+
+.card:hover h3, 
+.card:hover p {
+  color: #000;
+  font-weight: bold !important;
+}
+
+.card:hover .blink {
+  color: #000 !important;
+  text-shadow: none;
+  font-weight: bold !important;
 }
 
 .network-panel {
