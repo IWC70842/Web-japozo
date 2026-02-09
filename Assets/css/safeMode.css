@@ -292,6 +292,12 @@ h2::after {
   color: #854d0e;
 }
 
+/* Card Styling */
+.card-link {
+  text-decoration: none;
+  display: block;
+}
+
 /* =========================================
        8. PERFIL DE USUARIO
 ========================================= */
@@ -386,6 +392,11 @@ h2::after {
   line-height: 1.8;
 }
 
+/* Profile and Stats */
+.profile-stats {
+  margin-top: 1rem;
+}
+
 /* =========================================
        9. HABILIDADES
 ========================================= */
@@ -418,6 +429,11 @@ h2::after {
   display: block;
   width: 0;
   transition: width 5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Progress Bars */
+.progress-initial {
+  width: 0;
 }
 
 /* =========================================
@@ -464,6 +480,25 @@ footer {
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
   opacity: 0.7;
+}
+
+/* Contact Section */
+.contact-intro {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Contact Buttons */
+.copy-email-btn {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
 }
 
 /* =========================================
@@ -597,41 +632,3 @@ footer {
   }
 }
 
-/* =========================================
-       CLASES PARA REEMPLAZAR INLINE STYLES
-========================================= */
-.section-intro {
-  margin-bottom: 1rem;
-  color: var(--primary);
-  font-weight: 600;
-}
-
-.card-link {
-  text-decoration: none;
-  display: block;
-}
-
-.profile-stats {
-  margin-top: 1rem;
-}
-
-.progress-initial {
-  width: 0;
-}
-
-.contact-intro {
-  text-align: center;
-  color: var(--text-light);
-  margin-bottom: 2rem;
-}
-
-.contact-section {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.copy-email-btn {
-  background-color: transparent;
-  color: var(--primary);
-  border: 1px solid var(--primary);
-}

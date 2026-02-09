@@ -223,6 +223,18 @@ footer {
   opacity: 0.7;
 }
 
+/* Logo and Navigation Links */
+.logo-link {
+  text-decoration: none;
+  color: var(--term-green);
+}
+
+.safe-mode-btn {
+  color: var(--term-green);
+  border: 1px solid var(--term-green);
+  padding: 2px 5px;
+}
+
 /* =========================================
        4. TIPOGRAFÍA Y GLITCHES
 ========================================= */
@@ -344,6 +356,24 @@ p {
 .reveal.active {
   opacity: 1;
   transform: translateY(0) scale(1) perspective(1000px) rotateX(0deg);
+}
+
+/* Output Text Elements */
+.output-text {
+  min-height: 1.6em;
+}
+
+.main-title {
+  min-height: 1.2em;
+}
+
+.secondary-text {
+  min-height: 3.2em;
+}
+
+/* Status and Effects */
+.status-warning {
+  color: yellow;
 }
 
 /* =========================================
@@ -615,6 +645,14 @@ p {
 .skill-bar {
   color: var(--cyber-magenta);
   text-shadow: 0 0 5px var(--term-green);
+}
+
+/* Special Content Blocks */
+.ascii-art {
+  font-size: 9px;
+  background-color: #000000;
+  font-weight: bold;
+  padding: 4px 5px;
 }
 
 /* =========================================
@@ -1001,9 +1039,7 @@ p {
   }
 }
 
-/* =========================================
-       CLASES PARA REEMPLAZAR INLINE STYLES
-========================================= */
+/* Logo and Navigation Links */
 .logo-link {
   text-decoration: none;
   color: var(--term-green);
@@ -1015,6 +1051,7 @@ p {
   padding: 2px 5px;
 }
 
+/* Output Text Elements */
 .output-text {
   min-height: 1.6em;
 }
@@ -1027,13 +1064,4 @@ p {
   min-height: 3.2em;
 }
 
-.status-warning {
-  color: yellow;
-}
-
-.ascii-art {
-  font-size: 9px;
-  background-color: #000000;
-  font-weight: bold;
-  padding: 4px 5px;
-}
+/* Status and Effects */

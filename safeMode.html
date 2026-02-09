@@ -54,7 +54,7 @@
   </header>
 
   <section id="inicio">
-    <div style="margin-bottom: 1rem; color: var(--primary); font-weight: 600;">Frontend Developer</div>
+    <div class="section-intro">Frontend Developer</div>
     <h1>Hola, soy <span>Pozo</span></h1>
     <p class="subtitle">
       Desarrollo experiencias web que combinan innovación, funcionalidad y buen diseño.<br>
@@ -163,21 +163,19 @@
     <h2>Proyectos Destacados</h2>
     <div class="grid">
 
-      <a href="https://iptopografia.com" class="card" target="_blank" rel="noopener noreferrer"
-        style="text-decoration: none; display: block;">
+      <a href="https://iptopografia.com" class="card card-link" target="_blank" rel="noopener noreferrer">
         <h3>IP Topografía</h3>
         <p>Desarrollo de sitio web corporativo para empresa de topografía.</p>
         <span class="status-tag status-deployed">Online</span>
       </a>
 
-      <a href="#" class="card" style="text-decoration: none; display: block;">
+      <a href="#" class="card card-link">
         <h3>Allianz Partner</h3>
         <p>Sitio web corporativo para partner de compañía internacional de seguros y activos financieros.</p>
         <span class="status-tag status-dev">En Desarrollo</span>
       </a>
 
-      <a href="https://r2r.es/" class="card" target="_blank" rel="noopener noreferrer"
-        style="text-decoration: none; display: block;">
+      <a href="https://r2r.es/" class="card card-link" target="_blank" rel="noopener noreferrer">
         <h3>R2R Consulting</h3>
         <p>Desarrollo web para consultoría especializada en servicios inmobiliarios.</p>
         <span class="status-tag status-deployed">Online</span>
@@ -224,35 +222,35 @@
           <div class="skill-row">
             <div class="skill-info"><span>HTML / CSS</span><span>95%</span></div>
             <div class="progress-bg">
-              <div class="progress-fill" data-width="95%" style="width: 0;"></div>
+              <div class="progress-fill progress-initial" data-width="95%"></div>
             </div>
           </div>
 
           <div class="skill-row">
             <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
             <div class="progress-bg">
-              <div class="progress-fill" data-width="85%" style="width: 0;"></div>
+              <div class="progress-fill progress-initial" data-width="85%"></div>
             </div>
           </div>
 
           <div class="skill-row">
             <div class="skill-info"><span>UI / UX Design</span><span>80%</span></div>
             <div class="progress-bg">
-              <div class="progress-fill" data-width="80%" style="width: 0;"></div>
+              <div class="progress-fill progress-initial" data-width="80%"></div>
             </div>
           </div>
 
           <div class="skill-row">
             <div class="skill-info"><span>Teamwork</span><span>75%</span></div>
             <div class="progress-bg">
-              <div class="progress-fill" data-width="75%" style="width: 0;"></div>
+              <div class="progress-fill progress-initial" data-width="75%"></div>
             </div>
           </div>
 
           <div class="skill-row">
             <div class="skill-info"><span>Problem Solving</span><span>85%</span></div>
             <div class="progress-bg">
-              <div class="progress-fill" data-width="85%" style="width: 0;"></div>
+              <div class="progress-fill progress-initial" data-width="85%"></div>
             </div>
           </div>
 
@@ -263,7 +261,7 @@
 
   <section id="contacto">
     <h2>Contacto</h2>
-    <p style="text-align: center; color: var(--text-light); margin-bottom: 2rem;"></p>
+    <p class="contact-intro"></p>
 
     <div class="network-panel">
       <div class="data-row">
@@ -279,9 +277,8 @@
       </div>
     </div>
 
-    <div style="text-align: center; margin-top: 2rem;">
-      <button onclick="navigator.clipboard.writeText('contact@japozo.dev'); alert('Email copiado');" class="btn"
-        style="background-color: transparent; color: var(--primary); border: 1px solid var(--primary);">
+    <div class="contact-section">
+      <button onclick="navigator.clipboard.writeText('contact@japozo.dev'); alert('Email copiado');" class="btn copy-email-btn">
         Copiar Email al Portapapeles
       </button>
     </div>
